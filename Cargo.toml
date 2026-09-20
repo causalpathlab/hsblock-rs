@@ -1,0 +1,22 @@
+[package]
+name = "hsblock-rs"
+authors = ["Yongjin Park <ypp@stat.ubc.ca>"]
+edition = "2021"
+license = "MIT"
+description = "Hierarchical Stochastic Block Model for graph community detection"
+readme = "README.md"
+repository = "https://github.com/causalpathlab/hsblock-rs"
+
+version = "0.1.1"
+
+[lib]
+name = "hsblock"
+
+[dependencies]
+legume-numeric = { version = "0.8.10", features = ["matrix"] }
+anyhow = "1.0"
+rand = "0.10.1"
+rand_distr = "0.6"
+rayon = "1.10.0"
+special = "0.13"
+log = "0.4"
