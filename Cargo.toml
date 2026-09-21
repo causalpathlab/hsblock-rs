@@ -8,6 +8,7 @@ readme = "README.md"
 repository = "https://github.com/causalpathlab/hsblock-rs"
 
 version = "0.1.1"
+exclude = ["**/.claude/**", "**/.DS_Store"]
 
 [lib]
 name = "hsblock"
