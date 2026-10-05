@@ -7,14 +7,14 @@ description = "Hierarchical Stochastic Block Model for graph community detection
 readme = "README.md"
 repository = "https://github.com/causalpathlab/hsblock-rs"
 
-version = "0.1.4"
+version = "0.2.0"
 exclude = ["**/.claude/**", "**/.DS_Store"]
 
 [lib]
 name = "hsblock"
 
 [dependencies]
-legume-numeric = { version = "0.8.14", default-features = false, features = ["matrix"] }
+legume-numeric = { version = "0.9", default-features = false, features = ["matrix"] }
 anyhow = "1.0"
 rand = "0.10.1"
 rand_distr = "0.6"
